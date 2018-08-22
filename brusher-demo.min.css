@@ -1,0 +1,23 @@
+*{margin:0;padding:0}*,:after,:before{box-sizing:border-box}
+body,html
+{position:relative;
+    overflow-x:hidden;
+    display:block;
+    width:100%;
+    height:100%;
+    line-height:1.5
+}
+body{
+    font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;text-align:left;background-color:#fff}h1,h2,h3,h4,h5,h6{margin-bottom:.5rem;font-family:inherit;line-height:1.2}
+  
+
+        
+            
+              
+              
+           /*    body{background-size:cover;background-position:0 0;background-attachment:scroll}
+                body.homepage{background-image:url("images/homepage-blurred.jpg")}
+               
+                body.line-style{background-image:url("images/line-style-blurred.jpg")}
+                body.background-less{background:#5a5a5a}
+                */
