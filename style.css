@@ -1,0 +1,120 @@
+.parallax {
+    
+   /* background-image: url("image2.png");*/
+  
+    top:0px;
+    height: 100%;
+    width:100%;
+
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#mainheading{
+    text-align:center;
+    position: sticky;
+    background:black;
+    color:white;
+    top:0%;
+    width:100%;
+    animation-name: hanimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes hanimation {
+    0%{
+        font-size:25px;
+        color:#6ccece;
+    }
+    25%{
+        font-size: 30px;
+        color:#49a2ad;
+    }
+    50%{
+        font-size: 35px;
+        color: #248592;
+    }
+    75%{
+        font-size: 40px;
+        color:#236986;
+    }
+    100%{
+        font-size: 45px;
+        color:#099292;
+    }
+
+}
+
+#contentbox{
+    display: flex;
+    width:45%;
+    height:300px;
+background:white;
+opacity:0.5;
+
+}
+#box1{
+    
+    width: 50%;
+    height:100%;
+}
+#box2{
+    
+   width:50%;
+   height:100%;
+}
+#contentbox:hover{
+    opacity: 0.8;
+
+}
+a{
+    color:red;
+    text-decoration: none;
+}
+a:hover{
+    padding:12px;
+    background:#2762c0;
+}
+#smallheading{
+    text-align:center;
+    color:#2762c0;
+    font-size: 35px;
+    
+}
+
+
+#background{
+    
+    background-image: url("hackingmodified1.jpg"); 
+     
+    
+    height: 140%;
+    width:100%;
+    position: relative;
+    top:100%;
+
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#background1{
+    
+    background-image: url("machine.png");
+
+    
+    height: 140%;
+    width:120%;
+    position: relative;
+    top:200%;
+
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
